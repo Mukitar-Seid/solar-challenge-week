@@ -1,0 +1,22 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main ]  # Runs on pushes to the main branch
+  pull_request:         # Runs on pull requests
+    branches: [ main ]
+
+jobs:
+  install-dependencies:
+    runs-on: ubuntu-latest  # Uses a fresh Ubuntu environment
+    
+    steps:
+      - uses: actions/checkout@v4  # Checks out your repository
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'  # Replace with your Python version (e.g., 3.9)
+      
+      - name: Install dependencies
+        run: pip install -r requirements.txt  # Installs from requirements.txt
