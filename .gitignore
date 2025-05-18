@@ -1,2 +1,16 @@
 venv/
 .venv/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
