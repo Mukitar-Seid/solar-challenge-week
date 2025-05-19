@@ -1,5 +1,6 @@
 # solar-challenge-week
 Week 0
+A project for learning Git and CI/CD.
 
 1. Initialize the repository
 # Clone the repository
