@@ -22,6 +22,12 @@ data/
 / data
 .venv/
 venv
+venv/
+/ venv
+venv/
+venv
+.venv/
+venv/
 
 
 
