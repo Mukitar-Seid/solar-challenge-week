@@ -18,3 +18,4 @@ data/
 *.sqlite3
 # CSV data 
 *.CSV
+*.csv
