@@ -20,4 +20,8 @@ data/
 *.CSV
 *.csv
 / data
-/venv
+.venv/
+venv
+
+
+
