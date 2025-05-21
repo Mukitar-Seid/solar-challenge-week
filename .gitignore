@@ -35,7 +35,11 @@ venv/
 
 
 
+
 =======
 *.sqlite3
 >>>>>>> 778b03944ca5f98856d1f8d3d23b07e41274b379
 
+# ignoring the virtual env 
+# Python virtual environment
+venv/
